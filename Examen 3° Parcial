@@ -3,7 +3,7 @@
 
 int main() {
 	char caracter;
-	FILE *file= fopen("Downloads\emailscsv.csv","r");
+	FILE *file= fopen("Downloads\emailscsv.csv","rb");
 	
 	if (file == NULL){
 		perror("Error en la apertura del archivo");
